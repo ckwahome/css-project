@@ -4,3 +4,23 @@ body{
     color: aliceblue;
     font-family: "Asimovian", sans-serif;
 }
+
+nav ul li{
+    margin:  10px ;
+    list-style:none;
+
+}
+a{
+    text-decoration: none;
+    text-align:center;
+    color: rgb(7, 175, 167);
+    text-transform: capitalize;
+    background: #01220f;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px #01220f;
+}
+#main{
+    display: flex;
+    flex-wrap: wrap; 
+}
